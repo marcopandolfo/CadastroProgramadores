@@ -38,10 +38,10 @@ class Programmer
     /**
      * @Column(type="float", nullable=false)
      */
-    private float $experienceYears;
+    private float $yearsOfExperience;
 
     /**
-     * @ManyToOne(targetEntity="Role", inversedBy="programmers")
+     * @ManyToOne(targetEntity="Role", inversedBy="programmers", fetch="EAGER")
      * @JoinColumn(name="role_id", referencedColumnName="id")
      */
     private $role;
@@ -157,18 +157,18 @@ class Programmer
     /**
      * @return float
      */
-    public function getExperienceYears(): float
+    public function getYearsOfExperience(): float
     {
-        return $this->experienceYears;
+        return $this->yearsOfExperience;
     }
 
     /**
      * @param float $experienceYears
      * @return Programmer
      */
-    public function setExperienceYears(float $experienceYears): Programmer
+    public function setYearsOfExperience(float $experienceYears): Programmer
     {
-        $this->experienceYears = $experienceYears;
+        $this->yearsOfExperience = $experienceYears;
         return $this;
     }
 
