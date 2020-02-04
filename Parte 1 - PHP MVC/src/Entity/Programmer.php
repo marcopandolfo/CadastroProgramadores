@@ -13,7 +13,7 @@ class Programmer
      * @GeneratedValue
      * @Column(type="integer")
      */
-    private int $id;
+    private ?int $id;
 
     /**
      * @Column(type="string", nullable=false)

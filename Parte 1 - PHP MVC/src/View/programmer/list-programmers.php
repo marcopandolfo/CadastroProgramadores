@@ -31,8 +31,8 @@
                         <td><?php echo $programmer->getEmail() ?></td>
                         <td><?php echo $programmer->getExperienceYears() ?></td>
                         <td><?php echo $programmer->getRole()->getRole() ?></td>
-                        <td><a href="/edit-programmer.php?id=<?php echo $programmer->getid()?>" class="btn btn-info">Edit</a></td>
-                        <td><a href="/delete-programmer.php?id=<?php echo $programmer->getid()?>" class="btn btn-danger">Delete</a></td>
+                        <td><a href="/edit-programmer?id=<?php echo $programmer->getid()?>" class="btn btn-info">Edit</a></td>
+                        <td><a href="/delete-programmer?id=<?php echo $programmer->getid()?>" class="btn btn-danger">Delete</a></td>
                     </tr>
                 <?php endforeach; ?>
                 </tbody>
