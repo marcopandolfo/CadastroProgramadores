@@ -12,10 +12,10 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Programmers</a>
+                    <a class="nav-link" href="/list-programmers">Programmers</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Roles</a>
+                    <a class="nav-link" href="/list-roles">Roles</a>
                 </li>
             </ul>
         </div>
