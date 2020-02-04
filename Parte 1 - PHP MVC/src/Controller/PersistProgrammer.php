@@ -83,7 +83,7 @@ class PersistProgrammer implements RequestHandlerInterface
             $this->defineMessage($type, 'Programmer has been updated');
         } else {
             $this->entityManager->persist($programmer);
-            $this->defineMessage($type, 'Programmer saved');
+            $this->defineMessage($type, 'Programmer has been saved');
         }
 
         $this->entityManager->flush();
