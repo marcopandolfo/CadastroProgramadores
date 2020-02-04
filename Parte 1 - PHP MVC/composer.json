@@ -10,6 +10,7 @@
         "nyholm/psr7": "^1.1",
         "nyholm/psr7-server": "^0.3.0",
         "psr/http-server-handler": "^1.0",
-        "php-di/php-di": "^6.0"
+        "php-di/php-di": "^6.0",
+        "doctrine/migrations": "^2.2"
     }
 }

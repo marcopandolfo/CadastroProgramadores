@@ -15,6 +15,6 @@
 - Exclusão de programadores
 
 ### Tecnologias utilizadas:
-- PHP 7
+- PHP 7.4
 - Doctrine
 - Sqlite
